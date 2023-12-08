@@ -80,4 +80,33 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="65%" height="65%" src="images/sihouette_plot_kmeans.png">
 </p>
 
-- Resultados do
+- Resultados do modelo;
+<p align="center">
+  <img width="80%" height="100%" src="images/scatterplot_clusters.png">
+</p>
+
+## ANÁLISE EXPLORATÓRIA DE DADOS
+
+### [**Loja Olist**](https://github.com/allmeidaapedro/Olist-Analysis)
+- Neste projeto, realizei uma análise exploratória de dados de uma empresa de e-commerce brasileira, a Olist. Algumas perguntas de negócios foram formuladas e respondidas por meio de técnicas envolvendo coleta, limpeza, exploração e visualização de dados.
+- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Olist-Analysis)
+- Algumas perguntas de negócios interessantes que foram respondidas incluem:
+- 1. As vendas cresceram ao longo de dois anos, atingindo seu pico em novembro de 2017, provavelmente devido à Black Friday. Além disso, é perceptível que após esse pico em 2017, as vendas tendem a se manter em um número alto em comparação com os anos anteriores.
+
+<p align="center">
+  <img width="65%" height="65%" src="images/vendas_mensal.png">
+</p>
+
+- 2. Os estados das regiões Sul e Sudeste concentram os maiores números de pedidos, clientes e vendedores. Em particular, o estado de São Paulo e sua capital apresentam valores mais altos do que todos os outros. Enquanto isso, estados nas regiões Norte e Nordeste mostram os indicadores mais baixos.
+
+<p align="center">
+  <img width="65%" height="65%" src="images/pedidos_por_cidade.png">
+</p>
+
+## EM DESENVOLVIMENTO
+- Atualmente, estou trabalhando com dados públicos reais do meu país, conduzindo uma análise exploratória de dados do ENEM - o exame mais renomado para estudantes do ensino médio no Brasil.
+
+## CONTATO
+* [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)
+* [GitHub](https://github.com/allmeidaapedro)
+* [E-mail](pedrooalmeida.net@gmail.com)
