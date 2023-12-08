@@ -8,22 +8,29 @@
   <img src="images/welcome.jpg"%>
 </p>
 
+
 Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bacharelado em Engenharia da Computação na Universidade Federal de Brasília. Atualmente, trabalho como estagiário em análise quantitativa na Disrux e Arthur Mining. Nesse papel, realizo análises quantitativas em diversas áreas do mercado financeiro, incluindo criptomoedas, blockchain e investimentos. Aplico análise de dados, visualização e storytelling usando Python e métodos estatísticos. Além disso, contribuo ativamente para minha equipe desenvolvendo ferramentas, soluções e modelos de machine learning para aprimorar a análise de mercado. Minha paixão está em machine learning, ciência de dados e matemática, e estou constantemente trabalhando em projetos nessas áreas. Explore-os abaixo!
+
 
 ## PROJETOS
 
 ## CLASSIFICAÇÃO
 
+
 ### [**Credit Scoring em Banco Alemão**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
+
+
 - Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza Random Forest para atribuir pontuações de crédito a potenciais clientes de um banco alemão.
 - Dessa forma, é possível tomar decisões informadas, protegendo o Retorno sobre o Investimento (ROI) ao minimizar o risco de crédito.
 - Estimei resultados financeiros calculando o ROI usando a receita esperada de empréstimos não inadimplentes, a perda esperada de empréstimos inadimplentes e o montante total de crédito concedido antes da solução e após a mudança na política de crédito do banco com base no meu modelo de pontuação de crédito. Finalmente, após estender o crédito apenas a clientes com pontuação de crédito de 600 ou mais, o ROI aumentou de 9,55% para 42,64%.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
 
+
 - Alguns resultados obtidos e validação do modelo;
 <p align="center">
   <img width="65%" height="30%" src="images/probability_distributions_by_default.png">
 </p>
+
 
 - Deploy;
 <p align="center">
