@@ -8,7 +8,7 @@
   <img src="images/welcome.jpg"%>
 </p>
 
-Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bacharelado em Engenharia da Computação na Universidade Federal de Brasília. Atualmente, trabalho como estagiário em análise quantitativa na Disrux e Arthur Mining. Nesse papel, realizo análises quantitativas em diversas áreas do mercado financeiro, incluindo criptomoedas, blockchain e investimentos. Aplico análise de dados, visualização e storytelling usando Python e métodos estatísticos. Além disso, contribuo ativamente para minha equipe desenvolvendo ferramentas, soluções e modelos de machine learning para aprimorar a análise de mercado. Minha paixão está em machine learning, ciência de dados e matemática, e estou constantemente trabalhando em projetos nessas áreas. Explore abaixo!
+Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bacharelado em Engenharia da Computação na Universidade Federal de Brasília. Atualmente, trabalho como estagiário em análise quantitativa na Disrux e Arthur Mining. Nesse papel, realizo análises quantitativas em diversas áreas do mercado financeiro, incluindo criptomoedas, blockchain e investimentos. Aplico análise de dados, visualização e storytelling usando Python e métodos estatísticos. Além disso, contribuo ativamente para minha equipe desenvolvendo ferramentas, soluções e modelos de machine learning para aprimorar a análise de mercado. Minha paixão está em machine learning, ciência de dados e matemática, e estou constantemente trabalhando em projetos nessas áreas. Explore-os abaixo!
 
 ## PROJETOS
 
