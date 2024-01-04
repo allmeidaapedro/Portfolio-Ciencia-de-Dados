@@ -22,6 +22,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   - Análise e modelagem de desempenho: O objetivo dessa análise consiste em identificar as principais variáveis que impactam a nota do candidato, entender como elas se relacionam com o         desempenho e utilizá-las para prever a nota. Para a tarefa de predição, é utilizado um modelo de Regressão Lasso, devido às características de interpretabilidade (coeficientes),              regularização e seleção de características.
   - Análise e modelagem de abstenção: O objetivo dessa análise consiste em identificar os principais fatores que influenciam a ausência do candidato na prova. Além disso, ela visa observar     como esses fatores se relacionam com a abstenção e prever a probabilidade de abstenção do estudante. Para a tarefa de predição, é utilizado um modelo de Regressão Logística, devido às        características de interpretabilidade (coeficientes exponenciais), regularização através de penalidade l1, hiperparâmetro class_weight e eficiência.
 - Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
+- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Analysis)
 
 - Alguns resultados obtidos e validação do modelo;
 <p align="center">
