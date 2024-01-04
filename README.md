@@ -12,6 +12,31 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 
 ## PROJETOS
 
+## ANÁLISE EXPLORATÓRIA DE DADOS, CLASSIFICAÇÃO E REGRESSÃO
+
+### [**Análise e modelagem dos microdados do enem 2022**](https://github.com/allmeidaapedro/Enem-Analysis)
+
+- Este é um projeto de ciência de dados de ponta a ponta (da coleta de dados até o deploy), no qual são realizadas a limpeza de dados, análise exploratória e modelagem de microdados do ENEM 2022 (dados públicos reais). ENEM (Exame Nacional do Ensino Médio) é um exame nacional padronizado no Brasil usado para admissão em universidades e avaliação da educação no ensino médio.
+- A limpeza foi fundamental, dado que o conjunto original dos microdados tem mais de 2 GB de tamanho, tornando a manipulação, análise e modelagem dos dados inviável. Ao final dela, foi possível obter um arquivo parquet, reduzindo o tamanho do dataset original de +2 GB para +221.7 MB, quase 10%.
+- A análise e modelagem se dividem em duas abordagens:
+  - Análise e modelagem de desempenho: O objetivo dessa análise consiste em identificar as principais variáveis que impactam a nota do candidato, entender como elas se relacionam com o         desempenho e utilizá-las para prever a nota. Para a tarefa de predição, é utilizado um modelo de Regressão Lasso, devido às características de interpretabilidade (coeficientes),              regularização e seleção de características.
+  - Análise e modelagem de abstenção: O objetivo dessa análise consiste em identificar os principais fatores que influenciam a ausência do candidato na prova. Além disso, ela visa observar     como esses fatores se relacionam com a abstenção e prever a probabilidade de abstenção do estudante. Para a tarefa de predição, é utilizado um modelo de Regressão Logística, devido às        características de interpretabilidade (coeficientes exponenciais), regularização através de penalidade l1, hiperparâmetro class_weight e eficiência.
+- Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
+
+- Alguns resultados obtidos e validação do modelo;
+<p align="center">
+  <img width="65%" height="30%" src="images/nota_pc_net.png">
+</p>
+
+<p align="center">
+  <img width="65%" height="30%" src="images/faixas_score_ausentes.png">
+</p>
+
+- Deploy;
+<p align="center">
+  <img width="70%" height="70%" src="images/predicao_abstencao.png">
+</p>
+
 ## CLASSIFICAÇÃO
 
 ### [**Credit Scoring em Banco Alemão**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
