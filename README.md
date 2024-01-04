@@ -23,10 +23,22 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   - Análise e modelagem de abstenção: O objetivo dessa análise consiste em identificar os principais fatores que influenciam a ausência do candidato na prova. Além disso, ela visa observar     como esses fatores se relacionam com a abstenção e prever a probabilidade de abstenção do estudante. Para a tarefa de predição, é utilizado um modelo de Regressão Logística, devido às        características de interpretabilidade (coeficientes exponenciais), regularização através de penalidade l1, hiperparâmetro class_weight e eficiência.
 - Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Analysis)
-
-- Alguns resultados obtidos e validação do modelo;
-<p align="center">
+- Algumas descobertas interessantes incluem:
+- 1. Analisando os coeficientes da Regressão Lasso, o aumento de uma unidade em possui_computador_em_casa, ou seja, de nenhum para um, ou de um para dois ou mais, reflete um aumento de 9.45 na nota geral, considerando todas as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de desempenho que alunos que não possuíam computador em casa apresentavam desempenho menor que os que possuíam.
+  2. 
+   <p align="center">
   <img width="65%" height="30%" src="images/nota_pc_net.png">
+  </p>
+  
+- 2. Analisando a exponencial dos coeficientes da Regressão Logística (representando a razão de chances), para cada aumento de uma unidade na faixa_etaria (ou seja, de adolescente para jovem adulto, de adulto para meia idade a idoso, por exemplo), as chances de abstenção aumentam em 35%, considerando as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de abstenção que a taxa de abstenção entre candidatos adultos, de meia idade e idosos era maior que a de candidatos adolescentes e jovens adultos.
+       <p align="center">
+      <img width="65%" height="30%" src="images/comparecimento_faixa_etaria.png">
+      </p>
+      
+- Alguns resultados obtidos e validação do modelo;
+- 
+<p align="center">
+  <img width="65%" height="30%" src="images/actual_predicted.png">
 </p>
 
 <p align="center">
@@ -34,12 +46,13 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 </p>
 
 - Deploy;
-<p align="center">
-  <img width="70%" height="70%" src="images/predicao_abstencao.png">
-</p>
 
 <p align="center">
   <img width="70%" height="70%" src="images/desempenho_predicao.png">
+</p>
+
+<p align="center">
+  <img width="70%" height="70%" src="images/predicao_abstencao.png">
 </p>
 
 ## CLASSIFICAÇÃO
