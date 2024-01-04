@@ -37,6 +37,10 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="70%" height="70%" src="images/predicao_abstencao.png">
 </p>
 
+<p align="center">
+  <img width="70%" height="70%" src="images/desempenho_predicao.png">
+</p>
+
 ## CLASSIFICAÇÃO
 
 ### [**Credit Scoring em Banco Alemão**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
