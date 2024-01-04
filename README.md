@@ -25,7 +25,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Analysis)
 - Algumas descobertas interessantes incluem:
 - 1. Analisando os coeficientes da Regressão Lasso, o aumento de uma unidade em possui_computador_em_casa, ou seja, de nenhum para um, ou de um para dois ou mais, reflete um aumento de 9.45 na nota geral, considerando todas as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de desempenho que alunos que não possuíam computador em casa apresentavam desempenho menor que os que possuíam.
-  2. 
+  
    <p align="center">
   <img width="65%" height="30%" src="images/nota_pc_net.png">
   </p>
