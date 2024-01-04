@@ -27,12 +27,12 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 - 1. Analisando os coeficientes da Regressão Lasso, o aumento de uma unidade em possui_computador_em_casa, ou seja, de nenhum para um, ou de um para dois ou mais, reflete um aumento de 9.45 na nota geral, considerando todas as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de desempenho que alunos que não possuíam computador em casa apresentavam desempenho menor que os que possuíam.
   
    <p align="center">
-  <img width="65%" height="30%" src="images/nota_pc_net.png">
+  <img width="65%" height="65%" src="images/nota_pc_net.png">
   </p>
   
 - 2. Analisando a exponencial dos coeficientes da Regressão Logística (representando a razão de chances), para cada aumento de uma unidade na faixa_etaria (ou seja, de adolescente para jovem adulto, de adulto para meia idade a idoso, por exemplo), as chances de abstenção aumentam em 35%, considerando as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de abstenção que a taxa de abstenção entre candidatos adultos, de meia idade e idosos era maior que a de candidatos adolescentes e jovens adultos.
        <p align="center">
-      <img width="65%" height="30%" src="images/comparecimento_faixa_etaria.png">
+      <img width="65%" height="65%" src="images/comparecimento_faixa_etaria.png">
       </p>
       
 - Alguns resultados obtidos e validação do modelo.
@@ -42,7 +42,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 </p>
 
 <p align="center">
-  <img width="65%" height="30%" src="images/faixas_score_ausentes.png">
+  <img width="65%" height="65%" src="images/faixas_score_ausentes.png">
 </p>
 
 - Deploy.
