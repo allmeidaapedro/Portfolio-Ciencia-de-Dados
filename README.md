@@ -35,7 +35,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
       <img width="65%" height="30%" src="images/comparecimento_faixa_etaria.png">
       </p>
       
-- Alguns resultados obtidos e validação do modelo;
+- Alguns resultados obtidos e validação do modelo.
 - 
 <p align="center">
   <img width="65%" height="30%" src="images/actual_predicted.png">
@@ -45,7 +45,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="65%" height="30%" src="images/faixas_score_ausentes.png">
 </p>
 
-- Deploy;
+- Deploy.
 
 <p align="center">
   <img width="70%" height="70%" src="images/desempenho_predicao.png">
