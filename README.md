@@ -146,7 +146,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 </p>
 
 ## EM DESENVOLVIMENTO
-- Atualmente, estou trabalhando com dados públicos reais do meu país, conduzindo uma análise exploratória de dados do ENEM - o exame mais renomado para estudantes do ensino médio no Brasil.
+- Atualmente, estou me aprofundando em modelagem de crédito e MLOPS.
 
 ## CONTATO
 * [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)
