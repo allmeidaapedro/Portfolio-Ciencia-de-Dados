@@ -8,7 +8,7 @@
   <img src="images/welcome.jpg"%>
 </p>
 
-Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bacharelado em Engenharia da Computação na Universidade Federal de Brasília. Atualmente, trabalho como Cientista de Dados estagiário na Mundiale. Nesse papel, auxilio na análise e interpretação de conjuntos de dados, extraindo insights valiosos. Colaboro com equipes multidisciplinares para identificar e implementar melhorias nos processos de dados. Contribuo no desenvolvimento de modelos de Processamento de Linguagem Natural (NLP) para análise de dados textuais, além de outros modelos para propensão de compra e previsão de vendas, por exemplo. Ofereço apoio à equipe na análise crítica de resultados obtidos por modelos de Machine Learning, influenciando decisões baseadas em dados. Executo testes A/B para validar hipóteses e otimizar a performance de modelos preditivos e participo ativamente na criação de visualizações de dados e na elaboração de relatórios detalhados. Minha paixão está em machine learning, ciência de dados, estatística e matemática, e estou constantemente trabalhando em projetos nessas áreas. Explore-os abaixo!
+Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bacharelado em Engenharia de Computação na Universidade Federal de Brasília. Atualmente, trabalho como Cientista de Dados estagiário na Mundiale. Nesse papel, auxilio na análise e interpretação de conjuntos de dados, extraindo insights valiosos. Colaboro com equipes multidisciplinares para identificar e implementar melhorias nos processos de dados. Contribuo no desenvolvimento de modelos de Processamento de Linguagem Natural (NLP) para análise de dados textuais, além de outros modelos para propensão de compra e previsão de vendas, por exemplo. Ofereço apoio à equipe na análise crítica de resultados obtidos por modelos de Machine Learning, influenciando decisões baseadas em dados. Executo testes A/B para validar hipóteses e otimizar a performance de modelos preditivos e participo ativamente na criação de visualizações de dados e na elaboração de relatórios detalhados. Minha paixão está em machine learning, ciência de dados, estatística e matemática, e estou constantemente trabalhando em projetos nessas áreas. Explore-os abaixo!
 
 ## PROJETOS
 
@@ -59,9 +59,9 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 
 ### [**Credit Scoring em Banco Alemão**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
 
-- Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza Random Forest para atribuir pontuações de crédito a potenciais clientes de um banco alemão.
+- Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza Random Forest para atribuir scores de crédito a potenciais clientes de um banco alemão.
 - Dessa forma, é possível tomar decisões informadas, protegendo o Retorno sobre o Investimento (ROI) ao minimizar o risco de crédito.
-- Estimei resultados financeiros calculando o ROI usando a receita esperada de empréstimos não inadimplentes, a perda esperada de empréstimos inadimplentes e o montante total de crédito concedido antes da solução e após a mudança na política de crédito do banco com base no meu modelo de pontuação de crédito. Finalmente, após estender o crédito apenas a clientes com pontuação de crédito de 600 ou mais, o ROI aumentou de 9,55% para 42,64%.
+- Estimei resultados financeiros calculando o ROI usando a receita esperada de empréstimos não inadimplentes, a perda esperada de empréstimos inadimplentes e o montante total de crédito concedido antes da solução e após a mudança na política de crédito do banco com base no meu modelo de credit scoring. Finalmente, após estender o crédito apenas a clientes com score de 600 ou mais, o ROI aumentou de 9,55% para 42,64%.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
 
 - Alguns resultados obtidos e validação do modelo;
