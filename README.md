@@ -149,6 +149,6 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 - Atualmente, estou me aprofundando em modelagem de crédito e MLOPS.
 
 ## CONTATO
-* [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)
+* [LinkedIn](https://www.linkedin.com/in/pedro-almeida-ds/)
 * [GitHub](https://github.com/allmeidaapedro)
 * [E-mail](pedrooalmeida.net@gmail.com)
