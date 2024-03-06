@@ -2,7 +2,7 @@
 
 # Bem-vindo ao meu portfólio de ciência de dados!
 
-[![author](https://www.linkedin.com/in/pedro-almeida-ds/)]
+[![author](https://img.shields.io/badge/author-pedroalmeida-red.svg)](https://www.linkedin.com/in/pedro-almeida-ds/)
 
 <p align="center">
   <img src="images/welcome.jpg"%>
