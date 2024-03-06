@@ -4,7 +4,7 @@
 
 [![author](https://img.shields.io/badge/author-pedroalmeida-red.svg)](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)
 
-<p align="center">
+<p align="center">"
   <img src="images/welcome.jpg"%>
 </p>
 
