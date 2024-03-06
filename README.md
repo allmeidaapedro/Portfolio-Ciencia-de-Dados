@@ -10,7 +10,7 @@
 
 Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bacharelado em Engenharia de Computação na Universidade Federal de Brasília. Atualmente, trabalho como Cientista de Dados Estagiário na Mundiale. Nesse papel, auxilio na análise e interpretação de conjuntos de dados, extraindo insights valiosos. Colaboro com equipes multidisciplinares para identificar e implementar melhorias nos processos de dados. Contribuo no desenvolvimento de modelos de Processamento de Linguagem Natural (NLP) para análise de dados textuais, além de outros modelos para propensão de compra e previsão de vendas, por exemplo. Ofereço apoio à equipe na análise crítica de resultados obtidos por modelos de Machine Learning, influenciando decisões baseadas em dados. Executo testes A/B para validar hipóteses e otimizar a performance de modelos preditivos e participo ativamente na criação de visualizações de dados e na elaboração de relatórios detalhados. Minha paixão está em machine learning, ciência de dados, estatística e matemática, e estou constantemente trabalhando em projetos nessas áreas. Explore-os abaixo!
 
-## PROJETOS
+## Projetos
 
 ## ANÁLISE EXPLORATÓRIA DE DADOS, CLASSIFICAÇÃO E REGRESSÃO
 
@@ -55,23 +55,21 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="70%" height="70%" src="images/predicao_abstencao.png">
 </p>
 
-## CLASSIFICAÇÃO
+## CLASSIFICAÇÃO E REGRESSÃO
 
-### [**Credit Scoring em Banco Alemão**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
-
-- Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza Random Forest para atribuir scores de crédito a potenciais clientes de um banco alemão.
-- Dessa forma, é possível tomar decisões informadas, protegendo o Retorno sobre o Investimento (ROI) ao minimizar o risco de crédito.
-- Estimei resultados financeiros calculando o ROI usando a receita esperada de empréstimos não inadimplentes, a perda esperada de empréstimos inadimplentes e o montante total de crédito concedido antes da solução e após a mudança na política de crédito do banco com base no meu modelo de credit scoring. Finalmente, após estender o crédito apenas a clientes com score de 600 ou mais, o ROI aumentou de 9,55% para 42,64%.
-- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
+### [**Modelagem de Risco de Crédito (PD, EAD, LGD, EL) - Lending Club**](https://github.com/allmeidaapedro/Lending-Club-Credit-Scoring)
+- **Descrição:** Neste projeto, realizo a modelagem de risco de crédito, englobando modelos de Probability of Default (PD), Exposure at Default (EAD), Loss Given Default (LGD) e Expected Loss (EL), utilizando dados de empréstimos de 2007 a 2014 da instituição americana Lending Club.
+- **Problema de negócio:** O Lending Club enfrenta um grande desafio em gerenciar riscos de perda enquanto otimiza o lucro para seus investidores. A plataforma espera estimar riscos acuradamente para manter um negócio sustentável e lucrativo. Então, o CEO deseja obter insights sobre o risco de crédito nas concessões da empresa, e que sejam construídos modelos de PD, EAD e LGD, para estimar a perda esperada (EL) em cada empréstimo. Isso, juntamente a scores de crédito, será utilizado para desenvolver possíveis políticas de crédito na empresa. Ademais, sendo uma plataforma online, é importante explicar para os clientes o porquê da decisão de aprovar ou negar um empréstimo. Então, os resultados desses modelos devem ser explicáveis e interpretáveis.
+- **Objetivos:** Desenvolver modelos de PD, EAD e LGD, de forma a computar a perda esperada em cada empréstimo, EL. A partir disso, desenvolver uma política de crédito considerando as perdas estimadas e o ROI anualizado de cada ativo. Então, monitorar o modelo, acessando indicadores de estabilidade populacional, aferindo a necessidade de um novo modelo um ano após o construído.
+- **Resultados:** O modelo de PD obteve boa capacidade discriminatória, com AUC = 0.7 e KS = 0.3, além de ordenação nos escores, concentrando mais de 50% dos maus clientes até a terceira faixa de score. Os modelos de LGD e EAD obtiveram poder preditivo satisfatório. A política de crédito foi desenvolvida e reduziu em quase 11% as perdas esperadas e também a taxa de inadimplência. O modelo foi monitorado e foi aferida a necessidade, em breve, de desenvolvê-lo novamente, pois os scores apresentaram um PSI de 0.19.
+- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Lending-Club-Credit-Scoring)
 
 - Alguns resultados obtidos e validação do modelo;
 <p align="center">
-  <img width="65%" height="30%" src="images/probability_distributions_by_default.png">
+  <img width="65%" height="30%" src="images/ordering_per_decile.png">
 </p>
-
-- Deploy;
 <p align="center">
-  <img width="70%" height="70%" src="images/predict_page_webapp.jpeg">
+  <img width="70%" height="70%" src="images/roc_auc.png">
 </p>
 
 ### [**Previsão de Churn de Cartão de Crédito**](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
