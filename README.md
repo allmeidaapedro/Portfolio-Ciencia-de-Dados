@@ -23,7 +23,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 - Alguns insights:
   
    <p align="center">
-  <img width="80%" height="80%" src="images/nota_pc_net.png">
+  <img width="80%" height="80%" src="images/dist_presenca.png">
   </p>
   
     <p align="center">
