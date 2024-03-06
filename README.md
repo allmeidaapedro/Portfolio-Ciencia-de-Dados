@@ -64,10 +64,10 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 </p>
 
 ### [**Previsão de Churn de Cartão de Crédito**](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
-- Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza XGBoost para prever a probabilidade de um cliente cancelar o serviço de cartão de crédito de um banco.
-- Identificar possíveis clientes propensos a cancelar ajuda a planejar estratégias de retenção, mantendo uma receita saudável. Adquirir um novo cliente é mais caro do que manter um existente.
-- Os principais objetivos foram: identificar os fatores associados ao churn do cliente; construir um modelo capaz de prever o maior número possível de possíveis canceladores; oferecer planos de ação para o banco reduzir o churn de clientes de cartão de crédito.
-- Foi possível obter um ganho estimado de $198,098.82, calculando a diferença entre o ganho de verdadeiro positivos, o custo de retenção de falsos positivos e o custo de falsos negativos que cancelam.
+- **Descrição:** Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza XGBoost para prever a probabilidade de um cliente cancelar o serviço de cartão de crédito de um banco.
+- **Problema de negócio:** O gerente do banco está cansado de ver mais e mais clientes deixando de usar seu produto de cartão de crédito. Ele precisa que identifiquemos a probabilidade de cancelar o serviço para cada cliente, de forma a ordená-los pela chance de cancelamento e tomar possíveis ações a partir disso, como oferecer promoções. Identificar possíveis clientes propensos a cancelar ajuda a planejar estratégias de retenção, mantendo uma receita saudável. Adquirir um novo cliente é mais caro do que manter um existente.
+- **Objetivos:** Identificar os fatores associados ao churn do cliente; construir um modelo capaz de prever acuradamente a probabilidade de cancelar o serviço para um cliente; oferecer planos de ação para o banco reduzir o churn de clientes de cartão de crédito.
+- **Resultados:** Foi possível obter um ganho estimado de $198,098.82, calculando a diferença entre o ganho de verdadeiro positivos, o custo de retenção de falsos positivos e o custo de falsos negativos que cancelam. Além disso, o modelo apresenta performance incrível, pela qualidade dos dados e a modelagem efetuada.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
 
 - Algumas análises realizadas;
@@ -80,12 +80,13 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="20%" height="20%" src="images/output_example.jpeg">
 </p>
 
-## REGRESSÃO / SÉRIES TEMPORAIS
+## REGRESSÃO E SÉRIES TEMPORAIS
 
 ### [**Previsão de Demanda de Itens de Loja**](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
-- Neste projeto, realizei previsão de séries temporais usando o LightGBM para prever as vendas de 50 itens em 10 lojas diferentes ao longo de um período de 3 meses.
-- Ao fazer isso, a empresa poderá gerenciar estrategicamente o estoque e alocar recursos de forma eficaz, maximizando a receita e o lucro geral.
-- O resultado financeiro por loja, por loja e item, e para a empresa total está presente no projeto.
+- **Descrição:** Neste projeto, realizei previsão de séries temporais usando o LightGBM para prever o número de vendas de 50 itens em 10 lojas diferentes ao longo de um período de 3 meses.
+- **Problema de negócio:** Uma empresa de varejo deseja prever a demanda de 50 itens em 10 lojas diferentes ao longo de um período de 3 meses. Ao fazer isso, a empresa deseja gerenciar estrategicamente o estoque e alocar recursos de forma eficaz, maximizando a receita e o lucro geral.
+- **Objetivos:** Identificar insights de negócio sobre o número de vendas ao longo do tempo, como padrões sazonais e tendências; construir um modelo capaz de prever acuradamente as vendas nos próximos 3 meses; Estimar os resultados financeiros considerando essas previsões.
+- **Resultados:** O resultado financeiro por loja, por loja e item, e para a empresa total está presente no projeto. No geral, espera-se vender 2.558.788 itens nos próximos 3 meses. Particularmente, as lojas 2, 3 e 8 venderão mais, enquanto as lojas 5, 6 e 7, menos.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
 
 - Algumas análises realizadas;
@@ -101,9 +102,10 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 ## CLUSTERIZAÇÃO
 
 ### [**Segmentação de Clientes e Programa de Fidelidade para Loja de Varejo**](https://github.com/allmeidaapedro/Customer-Segmentation-Retail)
-- Neste projeto, realizei uma tarefa de clusterização de aprendizado não supervisionado usando o K-Means em dados de treinamento não rotulados para segmentar e perfilar clientes de uma loja de varejo.
-- Após segmentar os clientes, um programa de fidelidade chamado "Prosperous" foi desenvolvido com base no perfil de nossos melhores clientes, os Prosperous.
-- O programa de fidelidade tem o potencial de aumentar a receita total da loja em 9%, totalizando $125,228.55. Portanto, o projeto é válido.
+- **Descrição:** Neste projeto, realizei uma tarefa de clusterização de aprendizado não supervisionado usando o K-Means para segmentar e perfilar clientes de uma loja de varejo, desenvolvendo um programa de fidelidade.
+- **Problema de negócio:** Uma loja de varejo deseja entender mais profundamente as características dos seus clientes e utilizar essa informação estrategicamente, para maximizar vendas e receita. Para isso, ela deseja segmentá-los em perfis, de acordo com preferências, padrões de gasto e comportamento. De posse disso, ela deseja aumentar a conexão com os consumidores, desenvolvendo um programa de fidelidade, oferecendo benefícios aos melhores grupos e tentando converter os outros grupos ao mesmo padrão de comportamento.
+- **Objetivos:** Identificar grupos de clientes, perfilando-os, criando personas e desenvolver um programa de fidelidade baseado em um perfil ideal de cliente, a fim de aumentar a retenção e a receita.
+- **Resultados:** Após segmentar os clientes, um programa de fidelidade chamado "Prosperous" foi desenvolvido com base no perfil de nossos melhores clientes, os Prosperous. O programa de fidelidade tem o potencial de aumentar a receita total da loja em 9%, totalizando $125,228.55. Portanto, o projeto é válido.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Customer-Segmentation-Retail)
 
 - Clusterização;
@@ -116,23 +118,6 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="80%" height="100%" src="images/scatterplot_clusters.png">
 </p>
 
-## ANÁLISE EXPLORATÓRIA DE DADOS
-
-### [**Loja Olist**](https://github.com/allmeidaapedro/Olist-Analysis)
-- Neste projeto, realizei uma análise exploratória de dados de uma empresa de e-commerce brasileira, a Olist. Algumas perguntas de negócios foram formuladas e respondidas por meio de técnicas envolvendo coleta, limpeza, exploração e visualização de dados.
-- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Olist-Analysis)
-- Algumas perguntas de negócios interessantes que foram respondidas incluem:
-- 1. As vendas cresceram ao longo de dois anos, atingindo seu pico em novembro de 2017, provavelmente devido à Black Friday. Além disso, é perceptível que após esse pico em 2017, as vendas tendem a se manter em um número alto em comparação com os anos anteriores.
-
-<p align="center">
-  <img width="65%" height="65%" src="images/vendas_mensal.png">
-</p>
-
-- 2. Os estados das regiões Sul e Sudeste concentram os maiores números de pedidos, clientes e vendedores. Em particular, o estado de São Paulo e sua capital apresentam valores mais altos do que todos os outros. Enquanto isso, estados nas regiões Norte e Nordeste mostram os indicadores mais baixos.
-
-<p align="center">
-  <img width="65%" height="65%" src="images/pedidos_por_cidade.png">
-</p>
 
 ## EM DESENVOLVIMENTO
 - Atualmente, estou me aprofundando em modelagem de crédito e MLOPS.
