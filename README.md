@@ -16,31 +16,22 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 
 ### [**Análise e modelagem dos microdados do enem 2022**](https://github.com/allmeidaapedro/Enem-Analysis)
 
-- Este é um projeto de ciência de dados de ponta a ponta (da coleta de dados até o deploy), no qual são realizadas a limpeza de dados, análise exploratória e modelagem de microdados do ENEM 2022 (dados públicos reais). ENEM (Exame Nacional do Ensino Médio) é um exame nacional padronizado no Brasil usado para admissão em universidades e avaliação da educação no ensino médio.
-- A limpeza foi fundamental, dado que o conjunto original dos microdados tem mais de 2 GB de tamanho, tornando a manipulação, análise e modelagem dos dados inviável. Ao final dela, foi possível obter um arquivo parquet, reduzindo o tamanho do dataset original de +2 GB para +221.7 MB, quase 10%.
-- A análise e modelagem se dividem em duas abordagens:
-  - Análise e modelagem de desempenho: O objetivo dessa análise consiste em identificar as principais variáveis que impactam a nota do candidato, entender como elas se relacionam com o         desempenho e utilizá-las para prever a nota. Para a tarefa de predição, é utilizado um modelo de Regressão Lasso, devido às características de interpretabilidade (coeficientes),              regularização e seleção de variáveis, reduzindo os coeficientes daquelas irrelevantes a zero, gerando um modelo esparso. Além disso, foi percebida uma certa relação linear das features com   o target. Por exemplo, quanto maior era a escolaridade da mãe do candidato, maior era o desempenho, de forma monotônica. Esse fator, juntamente à ausência de multicolinearidade favoreceu a   escolha de tal modelo linear.
-  - Análise e modelagem de abstenção: O objetivo dessa análise consiste em identificar os principais fatores que influenciam a ausência do candidato na prova. Além disso, ela visa observar     como esses fatores se relacionam com a abstenção e prever a probabilidade de abstenção do estudante. Para a tarefa de predição, é utilizado um modelo de Regressão Logística, devido às        características de interpretabilidade (coeficientes exponenciais representando a razão de chances), regularização através de penalidade l1, hiperparâmetro class_weight e eficiência de        treinamento e predição. Além disso, foi percebida uma certa relação linear das features com o target. Por exemplo, quanto maior era a escolaridade da mãe do candidato, menor era a taxa       abstenção, de forma monotônica. Esse fator, juntamente à ausência de multicolinearidade favoreceu a escolha de tal modelo linear.
-- Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
+- **Descrição:** Este é um projeto de ciência de dados de ponta a ponta (da coleta de dados até o deploy), no qual são realizadas a limpeza de dados, análise exploratória e modelagem de microdados do ENEM 2022 (dados públicos reais).
+- **Problema e objetivos:** O objetivo consiste em realizar uma análise e modelagem do desempenho e da abstenção no exame. A análise e modelagem de desempenho tem como objetivo identificar a relação das variáveis com a nota do aluno e construir um modelo de Regressão Lasso para predição dessa nota e entendimento do impacto das variáveis nela. A análise e modelagem de abstenção tem como objetivo identificar a relação das variáveis com a abstenção do aluno e construir um modelo de Regressão Logística para predição da probabilidade de um aluno se abster no exame, além de interpretar a razão de chances nessa probabilidade com base em diferentes comparações, como alunos de escola pública vs particular.
+- **Resultados:** Foram percebidas relações lineares monotônicas interessantes, como, quanto maior era a escolaridade da mãe do candidato, maior era o desempenho e menor a taxa de abstenção. Os modelos tiveram performances satisfatórias. Com um MAE = 57, em média, as predições do modelo de regressão desviam das notas reais dos alunos em 57 pontos. Com um ROC-AUC = 0.68, há um poder discriminatório em distinguir alunos que compareceram e que faltaram. Analisando os coeficientes, a chance de se abster no exame para quem estudou em escola privada diminuem em 65%. Além disso, para cada aumento de uma unidade na renda familiar mensal, a nota geral do aluno aumenta em 16 pontos. Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Analysis)
-- Algumas descobertas interessantes incluem:
-- 1. Analisando os coeficientes da Regressão Lasso, o aumento de uma unidade em possui_computador_em_casa, ou seja, de nenhum para um, ou de um para dois ou mais, reflete um aumento de 9.45 na nota geral, considerando todas as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de desempenho que alunos que não possuíam computador em casa apresentavam desempenho menor que os que possuíam.
+- Alguns insights:
   
    <p align="center">
   <img width="80%" height="80%" src="images/nota_pc_net.png">
   </p>
   
-- 2. Analisando a exponencial dos coeficientes da Regressão Logística (representando a razão de chances), para cada aumento de uma unidade na faixa_etaria (ou seja, de adolescente para jovem adulto, de adulto para meia idade a idoso, por exemplo), as chances de abstenção aumentam em 35%, considerando as outras variáveis constantes. Isso faz sentido, uma vez que vimos na análise de abstenção que a taxa de abstenção entre candidatos adultos, de meia idade e idosos era maior que a de candidatos adolescentes e jovens adultos.
-       <p align="center">
-      <img width="80%" height="80%" src="images/comparecimento_faixa_etaria.png">
-      </p>
+    <p align="center">
+    <img width="80%" height="80%" src="images/comparecimento_faixa_etaria.png">
+    </p>
       
 - Alguns resultados obtidos e validação do modelo;
   
-<p align="center">
-  <img width="65%" height="30%" src="images/actual_predicted.png">
-</p>
-
 <p align="center">
   <img width="80%" height="80%" src="images/faixas_score_ausentes.png">
 </p>
