@@ -27,7 +27,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   </p>
   
     <p align="center">
-    <img width="80%" height="80%" src="images/abstencao_escolaridade.png">
+    <img width="80%" height="80%" src="images/abstencao_escolaridade.png" height="50%">
     </p>
       
 - Alguns resultados obtidos e validação do modelo;
