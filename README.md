@@ -17,17 +17,17 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 ### [**Análise e modelagem dos microdados do enem 2022**](https://github.com/allmeidaapedro/Enem-Analysis)
 
 - **Descrição:** Este é um projeto de ciência de dados de ponta a ponta (da coleta de dados até o deploy), no qual são realizadas a limpeza de dados, análise exploratória e modelagem de microdados do ENEM 2022 (dados públicos reais).
-- **Problema e objetivos:** O objetivo consiste em realizar uma análise e modelagem do desempenho e da abstenção no exame. A análise e modelagem de desempenho tem como objetivo identificar a relação das variáveis com a nota do aluno e construir um modelo de Regressão Lasso para predição dessa nota e entendimento do impacto das variáveis nela. A análise e modelagem de abstenção tem como objetivo identificar a relação das variáveis com a abstenção do aluno e construir um modelo de Regressão Logística para predição da probabilidade de um aluno se abster no exame, além de interpretar a razão de chances nessa probabilidade com base em diferentes comparações, como alunos de escola pública vs particular.
-- **Resultados:** Foram percebidas relações lineares monotônicas interessantes, como, quanto maior era a escolaridade da mãe do candidato, maior era o desempenho e menor a taxa de abstenção. Os modelos tiveram performances satisfatórias. Com um MAE = 57, em média, as predições do modelo de regressão desviam das notas reais dos alunos em 57 pontos. Com um ROC-AUC = 0.68, há um poder discriminatório em distinguir alunos que compareceram e que faltaram. Analisando os coeficientes, a chance de se abster no exame para quem estudou em escola privada diminuem em 65%. Além disso, para cada aumento de uma unidade na renda familiar mensal, a nota geral do aluno aumenta em 16 pontos. Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
-- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Analysis)
+- **Problema e objetivos:** O objetivo consiste em realizar uma análise e modelagem do desempenho e da abstenção no exame. A análise e modelagem de desempenho tem como objetivo identificar a relação das variáveis com a nota do aluno e construir um modelo para predição dessa nota e entendimento do impacto das variáveis nela. A análise e modelagem de abstenção tem como objetivo identificar a relação das variáveis com a abstenção do aluno e construir um modelo para predição da probabilidade de um aluno se abster no exame, além de interpretar os seus resultados, da mesma forma. Para isso, foi utilizado o algoritmo LightGBM, dado seu poder preditivo, rápido treinamento e predição.
+- **Resultados:** Foram percebidas relações interessantes através da análise exploratória de dados e da análise de SHAP values, como, quanto maior era a escolaridade da mãe do candidato, maior era o desempenho e menor a taxa de abstenção. Os modelos tiveram performances satisfatórias. Com um MAE = 55.7, em média, as predições do modelo de regressão desviam das notas reais dos alunos em 55.7 pontos. Com um ROC-AUC = 0.69, há um poder discriminatório em distinguir alunos que estavam presentes e alunos que estavam ausentes. Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
+- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Modeling)
 - Alguns insights:
   
    <p align="center">
-  <img width="80%" height="80%" src="images/dist_presenca.png">
+  <img width="80%" height="80%" src="images/target_abstencao.png">
   </p>
   
     <p align="center">
-    <img width="80%" height="80%" src="images/comparecimento_faixa_etaria.png">
+    <img width="80%" height="80%" src="images/abstencao_escolaridade.png">
     </p>
       
 - Alguns resultados obtidos e validação do modelo;
@@ -39,11 +39,11 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 - Deploy;
 
 <p align="center">
-  <img width="70%" height="70%" src="images/desempenho_predicao.png">
+  <img width="70%" height="70%" src="images/home_desempenho.png">
 </p>
 
 <p align="center">
-  <img width="70%" height="70%" src="images/predicao_abstencao.png">
+  <img width="70%" height="70%" src="images/home_abstencao.png">
 </p>
 
 ## CLASSIFICAÇÃO E REGRESSÃO
