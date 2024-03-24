@@ -81,7 +81,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 
 - Deploy;
 <p align="center">
-  <img width="20%" height="20%" src="images/web_app_1.png">
+  <img width="80%" height="80%" src="images/web_app_1.png">
 </p>
 
 ## REGRESSÃO E SÉRIES TEMPORAIS
