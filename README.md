@@ -64,20 +64,24 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 </p>
 
 ### [**Previsão de Churn de Cartão de Crédito**](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
-- **Descrição:** Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza XGBoost para prever a probabilidade de um cliente cancelar o serviço de cartão de crédito de um banco.
+- **Descrição:** Este é um projeto de machine learning de ponta a ponta (da coleta de dados à Deploy) que utiliza o LightGBM para prever a probabilidade de um cliente cancelar o serviço de cartão de crédito de um banco.
 - **Problema de negócio:** O gerente do banco está cansado de ver mais e mais clientes deixando de usar seu produto de cartão de crédito. Ele precisa que identifiquemos a probabilidade de cancelar o serviço para cada cliente, de forma a ordená-los pela chance de cancelamento e tomar possíveis ações a partir disso, como oferecer promoções. Identificar possíveis clientes propensos a cancelar ajuda a planejar estratégias de retenção, mantendo uma receita saudável. Adquirir um novo cliente é mais caro do que manter um existente.
 - **Objetivos:** Identificar os fatores associados ao churn do cliente; construir um modelo capaz de prever acuradamente a probabilidade de cancelar o serviço para um cliente; oferecer planos de ação para o banco reduzir o churn de clientes de cartão de crédito.
-- **Resultados:** Foi possível obter um ganho estimado de $198,098.82, calculando a diferença entre o ganho de verdadeiro positivos, o custo de retenção de falsos positivos e o custo de falsos negativos que cancelam. Além disso, o modelo apresenta performance incrível, pela qualidade dos dados e a modelagem efetuada.
+- **Resultados:** Foi possível obter um ganho estimado de $171,477, calculando a diferença entre o ganho de verdadeiro positivos, o custo de retenção de falsos positivos e o custo de falsos negativos que cancelam. Além disso, o modelo apresenta performance incrível, pela qualidade dos dados e a modelagem efetuada.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
 
 - Algumas análises realizadas;
 <p align="center">
-  <img width="80%" height="80%" src="images/numeric_distributions_by_churn.png">
+  <img width="80%" height="80%" src="images/churners_trans_ct.png">
+</p>
+
+<p align="center">
+  <img width="80%" height="80%" src="images/shap_beeswarm.png">
 </p>
 
 - Deploy;
 <p align="center">
-  <img width="20%" height="20%" src="images/output_example.png">
+  <img width="20%" height="20%" src="images/web_app_1.png">
 </p>
 
 ## REGRESSÃO E SÉRIES TEMPORAIS
