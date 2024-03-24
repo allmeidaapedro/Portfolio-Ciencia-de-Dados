@@ -76,7 +76,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 </p>
 
 <p align="center">
-  <img width="80%" height="80%" src="images/shap_beeswarm.png">
+  <img width="80%" height="80%" src="images/churn_education.png">
 </p>
 
 - Deploy;
