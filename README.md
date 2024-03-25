@@ -95,7 +95,7 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 
 - Algumas análises realizadas;
 <p align="center">
-  <img width="50%" height="50%" src="images/time_series_cv.png">
+  <img width="80%" height="80%" src="images/time_series_cv.png">
 </p>
 
 - Resultados do modelo;
