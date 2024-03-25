@@ -90,12 +90,12 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 - **Descrição:** Neste projeto, realizei previsão de séries temporais usando o LightGBM para prever o número de vendas de 50 itens em 10 lojas diferentes ao longo de um período de 3 meses.
 - **Problema de negócio:** Uma empresa de varejo deseja prever a demanda de 50 itens em 10 lojas diferentes ao longo de um período de 3 meses. Ao fazer isso, a empresa deseja gerenciar estrategicamente o estoque e alocar recursos de forma eficaz, maximizando a receita e o lucro geral.
 - **Objetivos:** Identificar insights de negócio sobre o número de vendas ao longo do tempo, como padrões sazonais e tendências; construir um modelo capaz de prever acuradamente as vendas nos próximos 3 meses; Estimar os resultados financeiros considerando essas previsões.
-- **Resultados:** O resultado financeiro por loja, por loja e item, e para a empresa total está presente no projeto. No geral, espera-se vender 2.558.788 itens nos próximos 3 meses. Particularmente, as lojas 2, 3 e 8 venderão mais, enquanto as lojas 5, 6 e 7, menos.
+- **Resultados:** O resultado financeiro por loja, por loja e item, e para a empresa total está presente no projeto. A empresa espera vender um total de 2.559.998 itens nos próximos 3 meses, com uma média de cerca de 27.527 itens por dia. Considerando o erro médio, esse número pode variar em cerca de 404 itens diariamente. Portanto, em dias ruins, espera-se vender 27.123 itens e, em dias bons, 27.931 itens. No total, ao longo dos 3 meses, espera-se vender, no pior cenário 2.522.455 e no melhor cenário 2.597.542 itens.
 - [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
 
 - Algumas análises realizadas;
 <p align="center">
-  <img width="50%" height="50%" src="images/time_series_decomposition.png">
+  <img width="50%" height="50%" src="images/time_series_cv.png">
 </p>
 
 - Resultados do modelo;
