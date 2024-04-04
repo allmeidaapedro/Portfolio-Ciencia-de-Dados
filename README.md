@@ -12,40 +12,6 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
 
 ## Projetos
 
-## ANÁLISE EXPLORATÓRIA DE DADOS, CLASSIFICAÇÃO E REGRESSÃO
-
-### [**Análise e modelagem dos microdados do enem 2022**](https://github.com/allmeidaapedro/Enem-Modeling)
-
-- **Descrição:** Este é um projeto de ciência de dados de ponta a ponta (da coleta de dados até o deploy), no qual são realizadas a limpeza de dados, análise exploratória e modelagem de microdados do ENEM 2022 (dados públicos reais).
-- **Problema e objetivos:** O objetivo consiste em realizar uma análise e modelagem do desempenho e da abstenção no exame. A análise e modelagem de desempenho tem como objetivo identificar a relação das variáveis com a nota do aluno e construir um modelo para predição dessa nota e entendimento do impacto das variáveis nela. A análise e modelagem de abstenção tem como objetivo identificar a relação das variáveis com a abstenção do aluno e construir um modelo para predição da probabilidade de um aluno se abster no exame, além de interpretar os seus resultados, da mesma forma. Para isso, foi utilizado o algoritmo LightGBM, dado seu poder preditivo, rápido treinamento e predição.
-- **Resultados:** Foram percebidas relações interessantes através da análise exploratória de dados e da análise de SHAP values, como, quanto maior era a escolaridade da mãe do candidato, maior era o desempenho e menor a taxa de abstenção. Os modelos tiveram performances satisfatórias. Com um MAE = 55.7, em média, as predições do modelo de regressão desviam das notas reais dos alunos em 55.7 pontos. Com um ROC-AUC = 0.69, há um poder discriminatório em distinguir alunos que estavam presentes e alunos que estavam ausentes. Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
-- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Modeling)
-- Alguns insights:
-  
-   <p align="center">
-  <img width="80%" height="80%" src="images/hist_nota_geral.png">
-  </p>
-  
-    <p align="center">
-    <img width="80%" height="80%" src="images/abstencao_escolaridade.png" height="50%">
-    </p>
-      
-- Alguns resultados obtidos e validação do modelo;
-  
-<p align="center">
-  <img width="80%" height="80%" src="images/faixas_score_ausentes.png">
-</p>
-
-- Deploy;
-
-<p align="center">
-  <img width="70%" height="70%" src="images/home_desempenho.png">
-</p>
-
-<p align="center">
-  <img width="70%" height="70%" src="images/home_abstencao.png">
-</p>
-
 ## CLASSIFICAÇÃO E REGRESSÃO
 
 ### [**Modelagem de Risco de Crédito (PD, EAD, LGD, EL) - Lending Club**](https://github.com/allmeidaapedro/Lending-Club-Credit-Scoring)
@@ -122,6 +88,51 @@ Olá! Meu nome é Pedro Almeida e eu sou um estudante de 20 anos cursando Bachar
   <img width="80%" height="100%" src="images/scatterplot_clusters.png">
 </p>
 
+## ANÁLISE EXPLORATÓRIA DE DADOS, CLASSIFICAÇÃO E REGRESSÃO
+
+### [**Análise e modelagem dos microdados do enem 2022**](https://github.com/allmeidaapedro/Enem-Modeling)
+
+- **Descrição:** Este é um projeto de ciência de dados de ponta a ponta (da coleta de dados até o deploy), no qual são realizadas a limpeza de dados, análise exploratória e modelagem de microdados do ENEM 2022 (dados públicos reais).
+- **Problema e objetivos:** O objetivo consiste em realizar uma análise e modelagem do desempenho e da abstenção no exame. A análise e modelagem de desempenho tem como objetivo identificar a relação das variáveis com a nota do aluno e construir um modelo para predição dessa nota e entendimento do impacto das variáveis nela. A análise e modelagem de abstenção tem como objetivo identificar a relação das variáveis com a abstenção do aluno e construir um modelo para predição da probabilidade de um aluno se abster no exame, além de interpretar os seus resultados, da mesma forma. Para isso, foi utilizado o algoritmo LightGBM, dado seu poder preditivo, rápido treinamento e predição.
+- **Resultados:** Foram percebidas relações interessantes através da análise exploratória de dados e da análise de SHAP values, como, quanto maior era a escolaridade da mãe do candidato, maior era o desempenho e menor a taxa de abstenção. Os modelos tiveram performances satisfatórias. Com um MAE = 55.7, em média, as predições do modelo de regressão desviam das notas reais dos alunos em 55.7 pontos. Com um ROC-AUC = 0.69, há um poder discriminatório em distinguir alunos que estavam presentes e alunos que estavam ausentes. Foram desenvolvidas duas APIs Flask para deploy dos modelos de ambas as análises supracitadas. Dessa forma, é possível prever a nota ou a probabilidade de abstenção de um candidato fornecendo dados socioeconômicos e educacionais sobre ele.
+- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Enem-Modeling)
+- Alguns insights:
+  
+   <p align="center">
+  <img width="80%" height="80%" src="images/hist_nota_geral.png">
+  </p>
+  
+    <p align="center">
+    <img width="80%" height="80%" src="images/abstencao_escolaridade.png" height="50%">
+    </p>
+      
+- Alguns resultados obtidos e validação do modelo;
+  
+<p align="center">
+  <img width="80%" height="80%" src="images/faixas_score_ausentes.png">
+</p>
+
+- Deploy;
+
+<p align="center">
+  <img width="70%" height="70%" src="images/home_desempenho.png">
+</p>
+
+<p align="center">
+  <img width="70%" height="70%" src="images/home_abstencao.png">
+</p>
+
+## ANÁLISE DE DADOS, SQL E POWER BI
+
+### [**Análise de dados da Olist (e-commerce, em desenvolvimento)**](https://github.com/allmeidaapedro/Olist-Data-Analysis)
+
+- **Descrição:** Este é um projeto de análise de dados utilizando SQL e PowerBI no qual são realizadas a limpeza, análise exploratória de dados e construção de um dashboard baseado nos dados da Olist (e-commerce brasileiro).
+- **Problema e objetivos:** O objetivo consiste em analisar dados de clientes, pedidos, produtos, vendedores e vendas da Olist de 2016 a 2018 para responder perguntas de negócio relevantes previamente estabelecidas, a fim de gerar valor ao negócio.
+- **Resultados:** Entre alguns insights interessantes obtidos na análise em SQL estão:
+  - As vendas apresentam uma tendência de crescimento ao longo dos dois anos, com destaque para um pico em novembro de 2017, provavelmente por conta da black friday.
+  - Há uma correlação negativa entre a pontuação de avaliação e o tempo de entrega dos pedidos. Isso significa que pedidos com maior tempo de entrega tendem a refletir em avaliações ruins por parte dos clientes.
+  - A grande maioria dos clientes, vendedores e pedidos concentra-se no estado de São Paulo.
+- [Clique aqui para conferir o projeto completo](https://github.com/allmeidaapedro/Olist-Data-Analysis)
 
 ## EM DESENVOLVIMENTO
 - Atualmente, estou me aprofundando em modelagem de crédito e MLOPS.
